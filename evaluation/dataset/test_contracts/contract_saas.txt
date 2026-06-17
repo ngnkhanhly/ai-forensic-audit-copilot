@@ -1,0 +1,13 @@
+MASTER SAAS AGREEMENT
+
+This Master SaaS Agreement (the "Agreement") is made and entered into on April 15, 2026, by and between CloudSystems Ltd. ("Provider") and RetailForce Corp ("Customer").
+
+1. SaaS Services. Provider grants Customer a non-exclusive, non-transferable right to access and use the CloudSystems platform during the Term.
+
+2. Payment Terms. Customer shall pay all fees specified in the Order Form. All fees are due and payable Net 90 days from the invoice date. Late payments shall accrue interest at a rate of 1.5% per month.
+
+3. Termination. Either party may terminate this Agreement for convenience upon ninety (90) days prior written notice. However, if Provider terminates for convenience, Customer shall not be entitled to any refund of pre-paid fees. Provider may terminate this Agreement immediately if Customer fails to pay fees when due.
+
+4. Limitation of Liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL PROVIDER'S AGGREGATE LIABILITY EXCEED THE TOTAL FEES PAID BY CUSTOMER IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM. PROVIDER SHALL NOT BE LIABLE FOR ANY INDIRECT, CONSEQUENTIAL, OR LOSS OF DATA. CUSTOMER'S LIABILITY FOR INTELLECTUAL PROPERTY INFRINGEMENT SHALL BE UNLIMITED.
+
+5. Dispute Resolution and Governing Law. This Agreement shall be governed by the laws of the State of Delaware, and any disputes shall be resolved exclusively in the state and federal courts located in Wilmington, Delaware.

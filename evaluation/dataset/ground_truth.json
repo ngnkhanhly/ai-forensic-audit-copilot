@@ -1,0 +1,90 @@
+{
+  "contract_nda.txt": {
+    "clauses": [
+      {
+        "clause_type": "Confidentiality",
+        "text": "Receiving Party shall hold the Confidential Information in strict confidence and shall not disclose it to any third party. Receiving Party shall use the Confidential Information solely for the Purpose. This obligation shall continue for a period of five (5) years from the date of disclosure."
+      },
+      {
+        "clause_type": "Liability",
+        "text": "NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES. THE MAXIMUM AGGREGATE LIABILITY OF THE DISCLOSING PARTY UNDER THIS AGREEMENT SHALL NOT EXCEED $1,000, BUT THE RECEIVING PARTY'S LIABILITY FOR BREACH OF CONFIDENTIALITY SHALL BE UNLIMITED."
+      },
+      {
+        "clause_type": "Governing Law",
+        "text": "This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York, without regard to its conflict of law principles."
+      }
+    ],
+    "expected_risks": [
+      {
+        "risk_category": "Confidentiality",
+        "severity": "high",
+        "description": "High liquidated damages penalty of $500,000 for breach of confidentiality."
+      },
+      {
+        "risk_category": "Liability",
+        "severity": "high",
+        "description": "Asymmetrical liability limit where Disclosing Party is capped at $1,000 while Receiving Party is unlimited."
+      }
+    ],
+    "ground_truth_summary": "Confidentiality agreement between TechCorp and Innovate. Liquidated damages of $500,000 for breach. Unequal liability cap of $1000 for Disclosing Party, unlimited for Receiving Party. Under New York law."
+  },
+  "contract_saas.txt": {
+    "clauses": [
+      {
+        "clause_type": "Payment Terms",
+        "text": "Customer shall pay all fees specified in the Order Form. All fees are due and payable Net 90 days from the invoice date."
+      },
+      {
+        "clause_type": "Termination",
+        "text": "Either party may terminate this Agreement for convenience upon ninety (90) days prior written notice. However, if Provider terminates for convenience, Customer shall not be entitled to any refund of pre-paid fees. Provider may terminate this Agreement immediately if Customer fails to pay fees when due."
+      },
+      {
+        "clause_type": "Liability",
+        "text": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL PROVIDER'S AGGREGATE LIABILITY EXCEED THE TOTAL FEES PAID BY CUSTOMER IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM. PROVIDER SHALL NOT BE LIABLE FOR ANY INDIRECT, CONSEQUENTIAL, OR LOSS OF DATA. CUSTOMER'S LIABILITY FOR INTELLECTUAL PROPERTY INFRINGEMENT SHALL BE UNLIMITED."
+      },
+      {
+        "clause_type": "Governing Law",
+        "text": "This Agreement shall be governed by the laws of the State of Delaware, and any disputes shall be resolved exclusively in the state and federal courts located in Wilmington, Delaware."
+      }
+    ],
+    "expected_risks": [
+      {
+        "risk_category": "Payment",
+        "severity": "medium",
+        "description": "Extremely long payment term of Net 90 days."
+      },
+      {
+        "risk_category": "Termination",
+        "severity": "medium",
+        "description": "No refund of pre-paid fees for Customer if Provider terminates for convenience."
+      }
+    ],
+    "ground_truth_summary": "SaaS Agreement between CloudSystems and RetailForce. Payment term of Net 90 days. Provider convenience termination has no pre-paid refund. Governing law Delaware."
+  },
+  "contract_service.txt": {
+    "clauses": [
+      {
+        "clause_type": "Payment Terms",
+        "text": "Client shall pay Consultant at the rate of $150 per hour. Invoices shall be submitted monthly and are due within thirty (30) days of receipt."
+      },
+      {
+        "clause_type": "Confidentiality",
+        "text": "Both parties agree to keep all technical and business information disclosed during the SOW strictly confidential during the term and for three (3) years thereafter."
+      },
+      {
+        "clause_type": "Termination",
+        "text": "Either party may terminate this Agreement only for material breach upon thirty (30) days written notice and failure to cure."
+      },
+      {
+        "clause_type": "Liability",
+        "text": "The maximum aggregate liability of either party under this Agreement shall be limited to the total fees paid to Consultant under the SOW."
+      },
+      {
+        "clause_type": "Governing Law",
+        "text": "This Agreement shall be governed by the laws of the State of California, and disputes shall be resolved in San Francisco, California."
+      }
+    ],
+    "expected_risks": [],
+    "ground_truth_summary": "Professional Services Agreement between BuildDraft and Apex Holdings. $150/hr billing rate, Net 30 payment terms. Mutual liability cap. California governing law."
+  }
+}

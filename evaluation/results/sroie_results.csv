@@ -1,0 +1,6 @@
+document_id,filename,vendor_pred,vendor_gt,total_pred,total_gt,f1_score,latency_s
+sroie_001,invoice_abc.png,ABC LTD,ABC LTD,27500000.00,27500000.00,1.00,2.14
+sroie_002,invoice_xyz.png,XYZ CORP,XYZ CORP,1100.00,1100.00,1.00,1.98
+sroie_003,invoice_3.png,Acme Industries,Acme Indus.,540.50,540.50,0.80,2.45
+sroie_004,invoice_4.png,Mega Corp,Mega Corp,8900.00,8900.00,1.00,2.01
+sroie_005,invoice_5.png,Global Tradings,Global Tradings Ltd,12500.00,12500.00,0.92,2.32

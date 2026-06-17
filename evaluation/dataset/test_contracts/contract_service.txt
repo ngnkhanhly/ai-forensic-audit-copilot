@@ -1,0 +1,15 @@
+PROFESSIONAL SERVICES AGREEMENT
+
+This Professional Services Agreement (the "Agreement") is dated January 10, 2026, by and between BuildDraft Partners ("Consultant") and Apex Holdings ("Client").
+
+1. Scope of Work. Consultant shall perform the consulting services described in Statement of Work (SOW) 1.
+
+2. Payment and Invoicing. Client shall pay Consultant at the rate of $150 per hour. Invoices shall be submitted monthly and are due within thirty (30) days of receipt.
+
+3. Confidentiality. Both parties agree to keep all technical and business information disclosed during the SOW strictly confidential during the term and for three (3) years thereafter.
+
+4. Termination. Either party may terminate this Agreement only for material breach upon thirty (30) days written notice and failure to cure.
+
+5. Limitation of Liability. The maximum aggregate liability of either party under this Agreement shall be limited to the total fees paid to Consultant under the SOW.
+
+6. Governing Law. This Agreement shall be governed by the laws of the State of California, and disputes shall be resolved in San Francisco, California.

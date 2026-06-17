@@ -1,0 +1,15 @@
+# Báo cáo Tóm tắt Tài liệu
+Ngày tạo: 2026-06-17 17:18:35
+
+## Tóm tắt các thông tin quan trọng
+
+- **Tên tài liệu**: sample_contract.pdf
+- **Loại tài liệu**: Hợp đồng
+- **Các bên tham gia**: 
+  - TechCorp Solutions LLC
+  - Innovate Software Inc.
+- **Ngày có hiệu lực**: 2026-06-12
+- **Ngày hết hạn**: 2026-07-01
+- **Điều khoản thanh toán**: Không có điều khoản thanh toán được chỉ định; thỏa thuận tập trung vào nghĩa vụ bảo mật.
+- **Cảnh báo rủi ro**: 
+  - Trách nhiệm giới hạn ở mức $1,000 cho các thiệt hại gián tiếp; trách nhiệm không giới hạn đối với vi phạm nghĩa vụ bảo mật.

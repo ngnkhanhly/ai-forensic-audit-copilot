@@ -1,0 +1,31 @@
+# API Keys & Sensitive Data
+.env
+
+# Database & Uploads
+*.db
+backend/uploads/
+uploads/
+qdrant_db/
+
+# Python Cache & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+
+# IDE & Editor Configs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Logs & Temporary Files
+*.log
+.system_generated/
+.gemini/

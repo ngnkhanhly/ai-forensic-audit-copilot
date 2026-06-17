@@ -1,0 +1,2 @@
+payment_id,vendor_name,invoice_id,payment_date,amount_vnd,bank_account
+PAY-1001,ABC Trading Co.,INV-000,2026-04-15,15000000,1234567890

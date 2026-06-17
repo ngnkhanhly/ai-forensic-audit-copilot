@@ -1,0 +1,6 @@
+document_id,filename,vendor_pred,vendor_gt,total_pred,total_gt,f1_score,latency_s
+cord_001,receipt_001.png,MINI MART,MINI MART,17.00,17.00,1.00,1.85
+cord_002,receipt_002.png,COFFEE HOUSE,COFFEE HOUSE,132.00,132.00,1.00,1.92
+cord_003,receipt_003.png,Burger Palace,Burger Palace LLC,45.50,45.50,0.89,2.10
+cord_004,receipt_004.png,Super Express,Super Express,8.90,8.90,1.00,1.74
+cord_005,receipt_005.png,Quick Stop,Quick Stop,23.40,24.40,0.75,2.05

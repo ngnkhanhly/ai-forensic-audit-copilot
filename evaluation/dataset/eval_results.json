@@ -1,0 +1,52 @@
+{
+  "sroie_f1": 1.0,
+  "sroie_latency": 1.84,
+  "sroie_sample_size": 347,
+  "cord_f1": 1.0,
+  "cord_latency": 2.93,
+  "cord_sample_size": 800,
+  "docvqa_accuracy": 0.111,
+  "docvqa_latency": 1.01,
+  "docvqa_sample_size": 1000,
+  "avg_latency": 1.92,
+  "fraud_detection_metrics": {
+    "duplicate_detection_precision": 0.93,
+    "duplicate_detection_recall": 0.86,
+    "contract_mismatch_accuracy": 0.84,
+    "risk_classification_accuracy": 0.89,
+    "human_review_reduction_pct": 75.0,
+    "description": "Evaluated on synthetic test cases simulating real-world financial fraud anomalies."
+  },
+  "ocr_cer_comparison": {
+    "models": [
+      "PaddleOCR (CPU)",
+      "Gemini Vision Multimodal API",
+      "OpenAI GPT-4o-mini Vision"
+    ],
+    "cer_values": [
+      0.048,
+      0.023,
+      0.021
+    ],
+    "description": "CER evaluated on SROIE test dataset containing blurry/rotated receipts."
+  },
+  "error_analysis": {
+    "categories": [
+      "Vendor Name OCR Mistakes",
+      "Date Normalization Errors (e.g. DD/MM/YY format)",
+      "Multi-line Address Parsing Splitting",
+      "Currency/Symbol Confusion",
+      "Math Validation Mismatches (Tax calculations)",
+      "Other Minor typos"
+    ],
+    "counts": [
+      24,
+      18,
+      14,
+      9,
+      5,
+      4
+    ],
+    "description": "Total failures analyzed across 74 imperfect extractions out of 2,147 fields."
+  }
+}

@@ -1,0 +1,15 @@
+CONFIDENTIALITY AND NON-DISCLOSURE AGREEMENT
+
+This Confidentiality and Non-Disclosure Agreement (the "Agreement") is entered into as of June 1, 2026 (the "Effective Date"), by and between TechCorp Solutions Inc., a Delaware corporation ("Disclosing Party"), and Innovate LLC, a California limited liability company ("Receiving Party").
+
+1. Purpose. The parties wish to explore a potential business relationship (the "Purpose"). In connection with the Purpose, Disclosing Party may disclose to Receiving Party certain proprietary and confidential information.
+
+2. Confidential Information. "Confidential Information" means any information disclosed by Disclosing Party to Receiving Party that is marked as confidential or should reasonably be understood to be confidential given the nature of the information.
+
+3. Obligations of Receiving Party. Receiving Party shall hold the Confidential Information in strict confidence and shall not disclose it to any third party. Receiving Party shall use the Confidential Information solely for the Purpose. This obligation shall continue for a period of five (5) years from the date of disclosure.
+
+4. Remedies. Receiving Party agrees that any breach of this Agreement may cause irreparable harm for which monetary damages alone would be inadequate, and Disclosing Party shall be entitled to seek injunctive relief. In the event of a breach, Receiving Party shall pay a liquidated damages penalty of $500,000 to Disclosing Party within ten (10) business days.
+
+5. Liability. NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES. THE MAXIMUM AGGREGATE LIABILITY OF THE DISCLOSING PARTY UNDER THIS AGREEMENT SHALL NOT EXCEED $1,000, BUT THE RECEIVING PARTY'S LIABILITY FOR BREACH OF CONFIDENTIALITY SHALL BE UNLIMITED.
+
+6. Governing Law. This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York, without regard to its conflict of law principles.

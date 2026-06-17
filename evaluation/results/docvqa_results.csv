@@ -1,0 +1,6 @@
+qa_id,question,context_snippet,pred_answer,gt_answer,exact_match,latency_s
+docvqa_q1,Who is the Tenant in this lease agreement?,Lease agreement made between Landlord Jack and Tenant Jill...,Jill,Jill,1,1.45
+docvqa_q2,What is the total payment amount?,"Invoice from Acme Corp. Total payment of 50,000 USD is due...","50,000 USD","50,000 USD",1,1.32
+docvqa_q3,When is the effective date?,Effective date is Jan 1st 2026...,Jan 1st 2026,2026-01-01,0,1.65
+docvqa_q4,What is the governing law?,This agreement shall be governed by the laws of California...,California,California,1,1.52
+docvqa_q5,What is the billing rate?,Client shall pay Consultant $150 per hour...,150 per hour,$150/hr,0,1.89
