@@ -139,7 +139,7 @@ with st.sidebar:
     
     # API Health Check
     try:
-        response = requests.get(f"{BACKEND_URL}/")
+        response = requests.get(f"{BACKEND_URL}/", timeout=2)
         if response.status_code == 200:
             st.success("🟢 API Connected")
     except Exception:
@@ -220,7 +220,7 @@ if page == "📂 Ingestion & Dashboard":
     with col_list:
         st.markdown("### 🗂️ Document Repository")
         try:
-            repo_res = requests.get(f"{BACKEND_URL}/api/documents/")
+            repo_res = requests.get(f"{BACKEND_URL}/api/documents/", timeout=5)
             if repo_res.status_code == 200:
                 docs = repo_res.json()
                 if not docs:
@@ -287,7 +287,7 @@ if page == "📂 Ingestion & Dashboard":
             st.info("Select a document from the repository to view detailed extractions and business validations.")
         else:
             try:
-                detail_res = requests.get(f"{BACKEND_URL}/api/documents/{active_id}")
+                detail_res = requests.get(f"{BACKEND_URL}/api/documents/{active_id}", timeout=5)
                 if detail_res.status_code == 200:
                     doc = detail_res.json()
                     
@@ -335,7 +335,7 @@ elif page == "💬 Multi-Agent Workspace":
     # Fetch all completed documents to build dropdown context selector
     completed_docs = []
     try:
-        res = requests.get(f"{BACKEND_URL}/api/documents/")
+        res = requests.get(f"{BACKEND_URL}/api/documents/", timeout=5)
         if res.status_code == 200:
             completed_docs = [d for d in res.json() if d["status"] == "completed"]
     except Exception:
