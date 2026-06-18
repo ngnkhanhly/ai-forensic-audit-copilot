@@ -31,9 +31,9 @@ def run_services():
     time.sleep(2)
     
     # 2. Start Frontend Streamlit
-    print("Starting Streamlit Frontend on http://localhost:8501 ...")
+    print("Starting Streamlit Frontend on http://localhost:8505 ...")
     frontend_process = subprocess.Popen(
-        [sys.executable, "-m", "streamlit", "run", "frontend/app.py", "--server.port", "8501"],
+        [sys.executable, "-m", "streamlit", "run", "frontend/app.py", "--server.port", "8505"],
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         text=True,
