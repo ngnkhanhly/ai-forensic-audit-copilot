@@ -34,7 +34,7 @@ Instead of just extracting raw text, **AI Forensic Audit Copilot** is designed w
 ### 🎬 Product Demo Video
 *Below is the recording showing the Streamlit Dashboard, Document Intelligence Inspector, and the LangGraph Agent Workspace (Click on the image below to play the video):*
 
-![](docs/images/dashboard_demo.mp4)
+<video src="docs/images/dashboard_demo.mp4" width="100%" controls></video>
 
 ---
 
