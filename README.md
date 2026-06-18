@@ -54,16 +54,16 @@ Instead of just extracting raw text, **AI Forensic Audit Copilot** is designed w
 
 ```mermaid
 graph TD
-    A[PDF / Image Attachment] --> B[OCR Layer: PaddleOCR / Vision LLM]
-    B --> C[Document Classification: Invoice / Contract / PO / Receipt]
-    C --> D[Structured Pydantic Extraction]
-    D --> E[Normalization: Dates / Currencies / Vendors]
-    E --> F[Validation Engine: Single-document business rules]
-    F --> G[Cross-Document Audit: Invoice ↔ Contract ↔ PO ↔ History]
-    G --> H[Weighted Risk Scoring Engine: 0-100 score]
-    H --> I[Normalized Database Persistence: SQLite SQLite]
-    I --> J[Agent Query Interface: LangGraph Agent + Vector Search]
-    J --> K[Human Review Dashboard: Streamlit interactive UI]
+    A["PDF / Image Attachment"] --> B["OCR Layer: PaddleOCR / Vision LLM"]
+    B --> C["Document Classification: Invoice / Contract / PO / Receipt"]
+    C --> D["Structured Pydantic Extraction"]
+    D --> E["Normalization: Dates / Currencies / Vendors"]
+    E --> F["Validation Engine: Single-document business rules"]
+    F --> G["Cross-Document Audit: Invoice ↔ Contract ↔ PO ↔ History"]
+    G --> H["Weighted Risk Scoring Engine: 0-100 score"]
+    H --> I["Normalized Database Persistence: SQLite"]
+    I --> J["Agent Query Interface: LangGraph Agent + Vector Search"]
+    J --> K["Human Review Dashboard: Streamlit interactive UI"]
     
     style G fill:#f9f,stroke:#33,stroke-width:2px
     style H fill:#bbf,stroke:#33,stroke-width:2px
